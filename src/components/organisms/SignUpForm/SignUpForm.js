@@ -3,7 +3,7 @@ import { Input, Button, Typography } from 'antd'
 import { Form, Field } from 'formik'
 import { Link } from 'react-router-dom'
 
-import { FormStyle } from './SigninFormStyle'
+import { FormStyle } from './SignUpFormStyle'
 
 const { Text } = Typography
 
@@ -11,7 +11,7 @@ function SigninForm() {
   return (
     <>
       <FormStyle>
-        <Text>Mental Health Project</Text>
+        <Text>Registration</Text>
         <Form.Item label="Email">
           <Field as={Input} name="email" type="email" />
         </Form.Item>

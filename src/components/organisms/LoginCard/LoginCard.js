@@ -8,7 +8,7 @@ import { CardStyle } from './LoginCardStyle'
 function LoginCard() {
   return (
     <CardStyle>
-      <Logo width="250px" />
+      <Logo style={{ marginRight: 40 }} width="250px" />
       <SigninForm />
     </CardStyle>
   )
